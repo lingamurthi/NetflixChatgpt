@@ -23,3 +23,11 @@ export const SUPPORTED_LANGUAGES = [
 ];
 
 export const GENAI_KEY = process.env.REACT_APP_GENAI_KEY;
+
+export const MOVIE_TRAILER="https://api.themoviedb.org/3/movie/"
+
+export const NOW_PLAYINGMOVIES="https://api.themoviedb.org/3/movie/now_playing?page=1"
+
+export const POPULAR_MOVIES="https://api.themoviedb.org/3/movie/popular?page=1"
+
+export const SEARCH_QUERY_API="https://api.themoviedb.org/3/search/movie?query=" 
